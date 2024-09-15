@@ -21,11 +21,11 @@ Let's start with the bad S.T.U.P.I.D. principles:
 
 **T**ight Coupling: When two or more functions or modules become so interconnected that making changes to one function requires editing another function, that is called Tight Coupling. This adds unnecessary complexity when you need to change a single function, as well as makes it harder to identify issues during testing.
 
-**U**ntestability:
+**U**ntestability: Writing code that is hard to test is obviously bad. There can be many factors as to why it can be the case, but a big factor is tight coupling between modules. Writing code that is easier to test helps saves time during development that is better spent elsewhere.
 
-**P**remature Optimisation:
+**P**remature Optimisation: Even though optimisation is important, it is not a good idea to optimise early. It is better to write simple code early to ensure it works, and then optimise it later once everything is complete. Advanced optimised code is harder to understand and to test.
 
-**I**ndescriptive Naming:
+**I**ndescriptive Naming: A class, variable, function, or other object should be given a descriptive name so that the reader can easily understand what it is used for. A non-descriptive name ruins the readability of the object, and it is an easy practice to implement that makes a significant improvement.
 
 **D**uplication: This is the same as the D.R.Y. principle. Do not write the same code repeatedly when it can easily be converted into a single function. It improves readability and ease of testing since you don't have to figure out which block of identical code is causing the problem. It also makes it easier to make changes to a single function than it is to change multiple blocks of code.
 <br/>  <br/>
