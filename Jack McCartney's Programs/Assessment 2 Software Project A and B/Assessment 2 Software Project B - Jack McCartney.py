@@ -1,5 +1,5 @@
 # Post Analysis Note: This is the second part of the assessment, and it reuses code from the previous part with some changes to include classes and some additional functions
-# The addition of comments makes this code significantly easier to understand than the previous part
+# Post Analysis Note: The addition of comments makes this code significantly easier to understand than the previous part
 
 # Post Analysis Note: Much like Part A, the names for the classes, functions, and variables are all appropriately named and easy to understand what they are for
 
@@ -123,4 +123,8 @@ while j == 'y':
 # Runs requisition_statistics
 RequisitionSystem.requisition_statistics()
 
-# Post Analysis Note: 
+# Post Analysis Note: Similar to the previous part, there is no unnecessary code and it is kept as simple as possible (D.R.Y. and K.I.S.S.)
+# Post Analysis Note: There is also plenty of line breaks, making the code easy to read
+
+# Post Analysis Note: The functions in this code have little to no coupling, meaning they can be run and modified independantly without causing errors.
+# Post Analysis Note: This shows good avoidance of the bad practice of Strong coupling in S.T.U.P.I.D.
