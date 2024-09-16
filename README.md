@@ -32,7 +32,15 @@ Let's start with the bad S.T.U.P.I.D. principles:
 
 Now let's cover the good S.O.L.I.D. principles:
 
+**S**ingle Responsibility Principle: This states that every class should have a single responsibility, and you should not add unnecessary functions outside the class's scope. Each class should have a defined responsibility, and adding extra unrelated functions to an existing class adds unnecessary confusion.
 
+**O**pen/Closed Principle: Software entities should be open to extension, but closed to modification. This means that you should avoid modifying an existing module once it has been fully implemented, and instead you should create an extension to the module if you need a different variant. You should also write your code so that it is open to extension. Closing off modules for modification and instead creating a new extension is important, as modifying a working, existing module can cause bugs with other modules already interacting with it. Creating an extension instead helps avoid this issue.
+
+**L**iskov Substitution Principle:
+
+**I**nterface Segregation Principle:
+
+**D**ependency Inversion Principle:
 
 
 
