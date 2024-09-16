@@ -14,6 +14,7 @@ The K.I.S.S. (Keep It Simple, Stupid) principle is essential to keep in mind whe
 Another important principle is D.R.Y. (Don't Repeat Yourself). It states that keep repeating code to a minimum. Having multiple blocks of the same code over and over makes the code harder to understand, and more difficult to test. If the same code is being used many times, it is better to use it as a function and call upon it when it is needed.
 
 Two big programming principles are S.T.U.P.I.D. and S.O.L.I.D., with S.T.U.P.I.D. containing principles that you should avoid using while programming, while S.O.L.I.D. containing principles that are good to use while programming.
+<br/>  <br/>
 
 Let's start with the bad S.T.U.P.I.D. principles:
 
@@ -36,11 +37,11 @@ Now let's cover the good S.O.L.I.D. principles:
 
 **O**pen/Closed Principle: Software entities should be open to extension, but closed to modification. This means that you should avoid modifying an existing module once it has been fully implemented, and instead you should create an extension to the module if you need a different variant. You should also write your code so that it is open to extension. Closing off modules for modification and instead creating a new extension is important, as modifying a working, existing module can cause bugs with other modules already interacting with it. Creating an extension instead helps avoid this issue.
 
-**L**iskov Substitution Principle:
+**L**iskov Substitution Principle: This states that in a class, the base class should be able to substitute one of its objects for one in its derived classes without causing an error. This is important to keep in mind while writing classes and its derived classes that share objects between each other, since it makes it simpler to share objects between themselves, and code that causes errors is not ideal.
 
 **I**nterface Segregation Principle: It is better to have separate specific interfaces than one general purpose interface. This is basically an extension of the Single Responsibility principle, but applied to interfaces. This way, each interface will have access to only the functionality that they need, instead of loading loads of functions that the specific interface will never use.
 
-**D**ependency Inversion Principle: This states that abstractions should not depend on details, and details should depend on abstractions
+**D**ependency Inversion Principle: This states that abstractions should not depend on details, and details should depend on abstractions. Abstraction is a concept that has not been covered so far, so it is difficult for me to judge the effectiveness of this principle. I will keep this principle in mind when learning more about abstraction at a later date.
 
 
 
