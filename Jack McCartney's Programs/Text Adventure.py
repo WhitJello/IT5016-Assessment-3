@@ -1,7 +1,13 @@
+# Post Analysis Note: The purpose of this code is to create a very basic RPG combat system using python
+# Post Analysis Note: This code was written a few months ago before I learned a couple more things about programming, so there are a few things that can be improved upon in this code which I will go over
+# Post Analysis Note: There are no comments within this code, which hurts its readability
+
 import random
 print(f'The Great Text Adventure!!')
 input(f'Press enter to continue ')
 
+# Post Analysis Note: The variables and function are named appropriately, and are easy to understand what their purpose is. 
+# Post Analysis Note: The good naming conventions are a good programming principle and avoid S.T.U.P.I.D.'s Indescriptive Naming Principle
 
 player_stats = {
     'MaxHP': 100,
@@ -22,6 +28,15 @@ enemy_stats = {
     'Temp Defense': 0,
 }
 print(f'Player Stats: {player_stats}')
+
+# Post Analysis Note: The entire combat system is stored within a single function. This is not ideal given the size. It would be better split up into a class with separate functions running different aspects
+# Post Analysis Note: This goes against the single responsibility principle, and should be compartmentalised into smaller parts.
+
+# Post Analysis Note: The lack of line breaks within this function makes it harder to read
+
+# Post Analysis Note: If you were to use this code for combat against a different enemy, you would be able to change the enemy_stats dictionary to create a new enemy, but the printed text is fixed to include 'baseball'
+# Post Analysis Note: It is good that the program still theoretically works with different enemy stats, since the name doesn't change, you have to modify the code in the function in order to change it
+# Post Analysis Note: This goes against S.O.L.I.D's Open/Closed Principle, which states that your program should be open to extension, but closed to modification
 def baseball_combat():
     print(f'A wild baseball appears and attacks you!')
     while player_stats['CurrentHP'] > 0:
@@ -59,3 +74,7 @@ def baseball_combat():
             print('YOU WON!!')
             break
 baseball_combat()
+
+
+# Post Analysis Note: While this code can be improved upon, it is still decent code. The code does not repeat itself (D.R.Y.), and it is kept as simple as it can be (K.I.S.S.)
+# Post Analysis Note: It also achieved its goal to create a simple combat system
