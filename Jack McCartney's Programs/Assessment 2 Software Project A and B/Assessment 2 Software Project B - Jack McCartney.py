@@ -1,3 +1,8 @@
+# Post Analysis Note: This is the second part of the assessment, and it reuses code from the previous part with some changes to include classes and some additional functions
+# The addition of comments makes this code significantly easier to understand than the previous part
+
+# Post Analysis Note: Much like Part A, the names for the classes, functions, and variables are all appropriately named and easy to understand what they are for
+
 # Global Variables
 counter = 10000
 staff_dict = {'date': '01/01/1999', 'staff_ID': 'AA00', 'staff_name': 'John Smith', 'req_ID': 0}
@@ -117,3 +122,5 @@ while j == 'y':
 
 # Runs requisition_statistics
 RequisitionSystem.requisition_statistics()
+
+# Post Analysis Note: 
