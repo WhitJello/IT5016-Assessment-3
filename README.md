@@ -38,9 +38,9 @@ Now let's cover the good S.O.L.I.D. principles:
 
 **L**iskov Substitution Principle:
 
-**I**nterface Segregation Principle:
+**I**nterface Segregation Principle: It is better to have separate specific interfaces than one general purpose interface. This is basically an extension of the Single Responsibility principle, but applied to interfaces. This way, each interface will have access to only the functionality that they need, instead of loading loads of functions that the specific interface will never use.
 
-**D**ependency Inversion Principle:
+**D**ependency Inversion Principle: This states that abstractions should not depend on details, and details should depend on abstractions
 
 
 
