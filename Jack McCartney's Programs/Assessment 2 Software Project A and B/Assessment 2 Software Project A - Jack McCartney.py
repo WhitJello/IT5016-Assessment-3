@@ -63,4 +63,4 @@ display_requisitions(staff_dict, total_price, status, reference_number)
 # Post Analysis Note: The code uses empty lines as spacing separating functions and other blocks of code to make it more readable, which is great for clarity
 
 # Post Analysis Note: The code uses the principles of KISS (Keep It Simple, Stupid), DRY (Don't Repeat Yourself), and the Single Responsibility Principle effectively
-# The code is simple and clean, with little to no repetition. Each function serves its own singular purpose with no wasted code
+# Post Analysis Note: The code is simple and clean, with little to no repetition. Each function serves its own singular purpose with no wasted code
