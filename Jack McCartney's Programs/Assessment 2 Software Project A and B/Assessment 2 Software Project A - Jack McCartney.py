@@ -1,5 +1,6 @@
 # Post Analysis Note: This code did not include any comments originally, which is not good practice, since without comments, it is more difficult to understand what the code is doing at a glance.
 
+# Post Analysis Note: The variables and class names describe their purposes and uses effectively
 counter = 10000
 staff_dict = {'date': '01/01/1999', 'staff_ID': 'AA00', 'staff_name': 'John Smith', 'req_ID': 0}
 total_price = 0
